@@ -19,6 +19,9 @@ gem 'dotenv-rails'
 gem 'unicorn'
 gem 'mini_racer', platforms: :ruby
 
+gem 'ed25519', '>= 1.2', '< 2.0'
+gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
+
 group :development, :test do
   gem 'capistrano', '3.6.0'
   gem 'capistrano-bundler'
